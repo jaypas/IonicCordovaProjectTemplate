@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="IonicCordovaVSIXProject.Mostafa MSFT.3ef8c2ea-294f-41b1-8387-e195f7a1a1b9" Version="1.0" Language="en-US" Publisher="Mostafa Elzoghbi [MSFT]" />
+    <DisplayName>Enhanced Ionic Cordova Template</DisplayName>
+    <Description xml:space="preserve">This is an enhanced Ionic Cordova project template with layered folder structure. The template allows developers to better manage controllers, services and framework JavaScript files for better organizating project files.</Description>
+    <Tags>ionic, enhanced ionic, cordova</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[14.0]" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Enhanced Ionic Cordova Project.zip" />
+  </Assets>
+</PackageManifest>
